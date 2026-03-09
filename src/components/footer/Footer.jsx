@@ -1,13 +1,12 @@
 import React from "react";
-
+import logo from '../../assets/Logo_.svg'
 const Footer = () => {
   return (
-    <footer className="bg-[#F7F8FC] mt-20 px-6 md:px-16 lg:px-24 py-16">
+    <footer className=" mt-20  py-16">
 
-      {/* TOP */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
-        {/* Column 1 */}
+        
         <div>
           <h2 className="text-2xl font-bold text-[#211F54] mb-4">
             Quality cleaning for your home
@@ -26,7 +25,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Column 2 */}
+       
         <div>
           <h3 className="text-xl font-bold text-[#211F54] mb-4">Contact us</h3>
 
@@ -39,7 +38,7 @@ const Footer = () => {
           <p className="mt-2 text-[#6E7191]">contact@cleaning.com</p>
         </div>
 
-        {/* Column 3 */}
+      
         <div>
           <h3 className="text-xl font-bold text-[#211F54] mb-4">Hours</h3>
 
@@ -60,7 +59,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Column 4 */}
         <div>
           <h3 className="text-xl font-bold text-[#211F54] mb-4">
             Get a free estimate
@@ -81,24 +79,22 @@ const Footer = () => {
 
       </div>
 
-      {/* LINE */}
+    
       <hr className="border-t border-gray-200 my-12" />
 
-      {/* BOTTOM */}
+    
       <div className="flex flex-col md:flex-row items-center justify-between gap-4">
 
         <div className="flex items-center gap-3">
-          <div className="text-blue-600 text-xl">✦</div>
-          <h3 className="font-bold text-[#211F54]">Cleaning X</h3>
+          <img src={logo} alt="" />
         </div>
 
         <p className="text-[#6E7191] text-sm text-center md:text-right">
           Copyright © Cleaning X | Designed by
-          <span className="text-blue-600"> BRIX Templates </span>
-          - Powered by
-          <span className="text-blue-600"> Webflow </span>
-          -
-          <span className="text-blue-600"> Licenses</span>
+          <span className="text-blue-600"> Sapayev Umidbek </span>
+         
+          
+      
         </p>
 
       </div>

@@ -20,6 +20,7 @@ const Header = () => {
           <li><a href="#about">About</a></li>
           <li><a href="#service">Service</a></li>
           <li><a href="#article">Article</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
 
@@ -52,6 +53,7 @@ const Header = () => {
             <li>
               <a href="#article" onClick={handleCloseMenu}>Article</a>
             </li>
+            <li><a href="#contact" onClick={handleCloseMenu}>Contact</a></li>
           </ul>
 
           <div className="mt-6 flex flex-col gap-4">
