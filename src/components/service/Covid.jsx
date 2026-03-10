@@ -5,16 +5,16 @@ const Covid = () => {
   return (
     <div className='bg-[#211F54] rounded-2xl sm:text-center xl:flex mt-30'>
         <img src={BG} alt="bg" />
-        <div className="text-center md:text-left max-w-xl text-white ml-20 mt-30 mr-20">
-                <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight">
+        <div className="text-center md:text-left max-w-xl text-white  sm:ml-10 xl:ml-20 mt-30  xl:mr-20">
+                <h1 className=" px-4 text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight">
                   We follow guidelines to keep you safe from the COVID-19 virus
                 </h1>
         
-                <p className=" mt-5 text-base sm:text-lg leading-7">
+                <p className=" px-4 mt-5 text-base sm:text-lg leading-7">
                   Lobortis mattis odio leo eget mauris met aliquet semper molestie sollicitudin congue massa mauris lectus.
                 </p>
         
-                <div className="mt-7 flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-center md:justify-start">
+                <div className=" p-4 mt-7 flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-center md:justify-start">
                   <button className="bg-blue-600 text-white px-5 py-3 rounded-2xl">
                     Get a free quote
                   </button>

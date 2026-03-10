@@ -3,12 +3,12 @@ import CallImg from '../../assets/Hero_call.svg'
 import Input from './Input'
 const Contact = () => {
   return (
-    <div className='sm:text-start xl:flex bg-[#F7F9FC] py-30'>
-        <div className='w-150 pr-30 pl-10 mt-20'>
+    <div className='sm:text-start xl:flex bg-[#F7F9FC] py-10 md:py-20 xl:py-30 rounded-2xl'>
+        <div className='w-150 pr-30 pl-5 xl:pl-10 xl:mt-20'>
             <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold text-[#211F54]'>
                 Contact Us
             </h1>
-            <p className='mt-4 text-base leading-7 text-[#6E7191]'>
+            <p className=' w-70 sm:w-100 md:w-150 xl:w-full mt-4 text-base leading-7 text-[#6E7191]'>
                 In dignissim euismod pretium amet enim a eu nam ut urna 
                 accumsan pellentesque lacus duis pharetra eutortor.
             </p>
@@ -23,12 +23,12 @@ const Contact = () => {
              <h1 className='text-xl md:text-2xl lg:text-3xl font-bold text-[#211F54]'>
                Not convinced yet?
             </h1>
-            <p className='mt-4 text-base leading-7 text-[#6E7191]'>
+            <p className='mt-4 text-base leading-7 text-[#6E7191]  w-70 sm:w-100 md:w-150 xl:w-full'>
                 Massa bibendum consectetur maurisid gravida purus,
                  dolor dui amet morbi non nunc urna purus diam.
             </p>
 
-            <button className=" mt-15 rounded-2xl border border-gray-200 bg-white px-6 py-4 font-semibold text-[#211F54] shadow-sm">
+            <button className=" mt-15 rounded-2xl border border-gray-200 bg-white px-6 py-4 font-semibold text-[#211F54] shadow-sm mb-5">
               Browse articles
             </button>
         </div>
